@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+    <main>
+        <h2>Cálculo de IMC</h2>
+        <div class="img"><img src="img/massacorp.jpg" alt=""></div>
+        <div class="divAltura">
+            <label for="altura">Altura (Metros)</label>
+            <input type="number" id="altura">
+        </div>
+
+        <div class="divPeso">
+            <label for="peso">Peso (Kg)</label>
+            <input type="number" id="peso">
+        </div>
+
+        <div class="divCalc">
+            <button id="botaoz" onclick="calculaimc()">Calcular</button>
+        </div>
+
+        <span id="resultado"></span>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
